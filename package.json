@@ -1,0 +1,25 @@
+{
+  "name": "create-issue-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMmaXingXing/create-issue-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMmaXingXing/create-issue-action/issues"
+  },
+  "homepage": "https://github.com/MMmaXingXing/create-issue-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "dayjs": "^1.10.8",
+    "octokit": "^1.7.1"
+  }
+}

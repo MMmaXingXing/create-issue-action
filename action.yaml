@@ -1,0 +1,9 @@
+name: "create-issue-action"
+description: "auto create issue action"
+inputs:
+    token:
+        description: "github token"
+        required: true
+runs:
+    using: "node16"
+    main: "index.js"
